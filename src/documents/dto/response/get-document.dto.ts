@@ -1,0 +1,35 @@
+export class GetDocumentDto {
+  id: string;
+  title: string;
+  description?: string;
+  status?: string;
+  statusDate?: string;
+  receivedBy?: object;
+  requestedBy?: object;
+  requestedDate?: string;
+  rerequestedBy?: object;
+  rerequestedDate?: string;
+  reviewedBy?: object;
+  reviewedDate?: string;
+  readyForUwBy?: object;
+  readyForUwDate?: string;
+  readyToShipBy?: object;
+  readyToShipDate?: string;
+  createdBy?: object;
+  isProtected?: boolean;
+  createdDate?: string;
+  documentGroups?: string[];
+  roles?: object[];
+  expectedDate?: string;
+  expirationDate?: string;
+  milestone?: object;
+  accessibleTo?: string[];
+  documentTypes?: string[];
+  attachments?: object[];
+  isMarkedRemoved?: boolean;
+  daysDue?: number;
+  daysTillExpire?: number;
+  application?: object;
+  conditions?: object[];
+  requestedFrom?: string;
+}
